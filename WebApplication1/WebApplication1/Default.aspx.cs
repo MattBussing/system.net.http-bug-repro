@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using ClassLibrary1;
+using System;
 using System.Web.UI;
-using System.Web.UI.WebControls;
 
 namespace WebApplication1
 {
@@ -11,7 +8,7 @@ namespace WebApplication1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Class1.DoStuff().Wait();
         }
     }
 }
